@@ -1,6 +1,114 @@
-<html>
-  <body>
-    <h1>Your name here</h1>
-    <h2>Your student code here</h2>
-  </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chiang Mai Student Shop</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #6A1B9A;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header img {
+      width: 80px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 28px;
+      vertical-align: middle;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .product img {
+      width: 150px;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+    .product-info {
+      flex: 1;
+    }
+    .product-info h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .product-info p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+    .ad-banner {
+      background-color: #FFE082;
+      text-align: center;
+      padding: 15px;
+      margin: 30px 0;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="โลโก้ร้าน">
+    <h1>Chiang Mai Student Shop</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="ad-banner">
+      🎉 โปรโมชั่นพิเศษสำหรับนักศึกษามช.! รับส่วนลด 10% เมื่อแสดงบัตรนักศึกษา 🎓
+    </div>
+
+    <div class="product">
+      <img src="stationery.jpg" alt="ชุดเครื่องเขียน">
+      <div class="product-info">
+        <h2>ชุดเครื่องเขียนครบเซ็ต</h2>
+        <p>ราคา: 129 บาท</p>
+        <p>เหมาะสำหรับการเรียนและจดโน้ตในคลาส</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="usb-drive.jpg" alt="แฟลชไดรฟ์">
+      <div class="product-info">
+        <h2>แฟลชไดรฟ์ 32GB</h2>
+        <p>ราคา: 199 บาท</p>
+        <p>เก็บไฟล์เรียนได้อย่างปลอดภัยและสะดวก</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="desk-lamp.jpg" alt="โคมไฟตั้งโต๊ะ">
+      <div class="product-info">
+        <h2>โคมไฟตั้งโต๊ะ LED</h2>
+        <p>ราคา: 349 บาท</p>
+        <p>ช่วยให้การอ่านหนังสือตอนกลางคืนสบายตา</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
 </html>
